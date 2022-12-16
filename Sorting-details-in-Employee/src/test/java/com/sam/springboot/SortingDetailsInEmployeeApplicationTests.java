@@ -76,6 +76,6 @@ class SortingDetailsInEmployeeApplicationTests {
 		lemp1=serv.sortAge();
 		//when(serv.sortName()).thenReturn(Stream.of(lemp).collect(Collectors.toList()));
 		
-		assertEquals("32", lemp1.get(0).getAge());	
+		assertEquals(32, lemp1.get(0).getAge());	
 	}
 }
